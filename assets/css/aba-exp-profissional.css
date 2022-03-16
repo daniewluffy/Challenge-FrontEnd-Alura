@@ -1,0 +1,76 @@
+#aba-exp-profissional{
+    width: auto;
+    height: auto;
+    padding: 0 5%;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+#titulo-exp{
+    font-size: 32px;
+    color: #fff;
+    font-family: 'Raleway';
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.contein-exp-profissional{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.caixa-imagem-exp{
+    width: 70%;
+    height: 400px;
+}
+
+.imagem-exp{
+    width: 95%;
+    height: 100%;
+}
+
+.caixa-descricao{
+    width: 17%;
+}
+
+.titulo-projeto{
+    font-family: 'Raleway';
+    font-weight: bold;
+    font-size: 22px;
+    color: #fff;
+}
+
+.instituicao-projeto{
+    font-family: 'Raleway';
+    font-size: 16px;
+    color: #C4C4CC;
+}
+
+.butoes-link-exp{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#button-repositorio{
+    color: #271A45;
+    background-color: white;
+    border: 2px solid #271A45;
+    padding: 10px;
+    width: 100px;
+    height: 50px;
+}
+
+#button-demo{
+    color: #fff;
+    background-color: #271A45;
+    border: 2px solid #fff;
+    padding: 10px;
+    width: 100px;
+    height: 50px;
+}

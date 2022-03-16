@@ -1,0 +1,24 @@
+#aba-rodapé{
+    background-color: #09090a;
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+#caixa-rodpé{
+    width: 100%;
+    height: 105px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-rodapé{
+    margin: 0%;
+    font-size: 16px;
+    font-family: 'Raleway';
+    font-weight: bold;
+    color: #C4C4CC;
+}

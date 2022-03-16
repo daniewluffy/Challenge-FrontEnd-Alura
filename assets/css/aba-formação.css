@@ -1,0 +1,53 @@
+#aba-formacao{
+    background-color: #121214;
+    width: auto;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 5%;
+}
+
+#titulo-formacao{
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    color: #fff;
+}
+
+.spaca-formacao{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.conteiner-formacao{
+    width: 30%;
+}
+
+.caixa-imagem-formacao{
+    padding: 55px;
+    height: 230px;
+    background-color: #09090a;
+    border: 2px solid #04D361;
+}
+
+.imagem-formacao{
+    width: 100%;
+    height: 200px;
+}
+
+.titulo-instituicao{
+    font-family: 'Raleway';
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.legenda-instituicao{
+    font-family: 'Raleway';
+    font-size: 16px;
+    color: #C4C4CC;
+}

@@ -1,0 +1,89 @@
+#aba-contato{
+    width: auto;
+    height: auto;
+    background-color: #121214;
+    padding: 5% 5%;
+}
+
+#contein-contato{
+    display: flex;
+}
+
+#contein-imagem-contato{
+    width:45%;
+    height: 598px;
+}
+
+#imagem-contato{
+    height: 598px;
+}
+
+#contein-form-contato{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#titulo-contato{
+    margin: 0;
+    font-family: 'Raleway';
+    font-size: 32px;
+    color: #fff;
+}
+
+#texto-contato{
+    margin: 0;
+    font-family: 'Raleway';
+    font-size: 16px;
+    color: #C4C4CC;
+    font-size: 16px;
+}
+
+.caixa-input{
+    padding: 2% 2%;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #505059;
+
+    transition: all .3s ease-in-out;
+}
+
+.caixa-input:focus{
+    border-bottom: 3px solid #04D361;
+}
+
+.caixa-input:focus, input:focus, select:focus {
+    outline: 0;
+} 
+
+.label
+
+#nome-label{position: absolute;top: 181em;left: 38em;margin-top: 15px;pointer-events: none;transition: all .3s ease-out;color: #C4C4CC;}
+#email-label{position: absolute;top: 192em;left: 38em;margin-top: 5px;pointer-events: none;transition: all .3s ease-out;color: transparent;}
+#assunto-label{position: absolute;top: 198em;left: 38em;margin-top: 5px;pointer-events: none;transition: all .3s ease-out;color: transparent;}
+#mensagem-label{position: absolute;top: 204em;left: 38em;margin-top: 0px;pointer-events: none;transition: all .3s ease-out;color: transparent;}
+
+.caixa-input:focus ~ #nome-label,select:focus{color: #8257E5;transform: translateY(-25px);}
+.caixa-input:focus ~ #email-label,select:focus{color: #8257E5;transform: translateY(-25px);}
+.caixa-input:focus ~ #assunto-label{color: #8257E5;transform: translateY(-25px);}
+.caixa-input:focus ~ #mensagem-label{color: #8257E5;transform: translateY(-25px);}
+
+#mensagem-input{
+    padding: 3.5% 1%;
+    height: 75px;
+}
+
+#button-submit{
+    padding: 2% 0;
+    width: 25%;
+    border: 1px solid #EAF2FD;
+    border-radius: 4px;
+    color: white;
+    background-color: #271A45;
+}

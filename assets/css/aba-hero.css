@@ -1,0 +1,80 @@
+#aba-hero{
+    width: auto;
+    height: auto;
+    padding: 3% 5%;
+}
+
+.hero{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.conteudo-texto{
+    display: flex;
+    flex-direction: column;
+}
+
+#titulo-apresentacao{
+    font-family: 'Raleway';
+    font-size: 47px;
+    font-style: normal;
+    text-align: justify;
+    font-weight: bold;
+    color: #fff;
+
+    width: 752px;
+    height: 122px;
+    margin: 0;
+}
+
+#texto-descricao{
+    font-family: 'Raleway';
+    font-size: 22px;
+    text-align: justify;
+    color: #C4C4CC;
+    width: 751px;
+    height: 52px;
+}
+
+.conteudo-links{
+    width: 467px;
+    height: 24px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.caixa-link{
+    display: flex;
+    align-items: center;
+    background-color: #271A45;
+    border-radius: 5px;
+    padding: 4% 1%;
+}
+
+.links-redes{
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    transition: all 1.5s;
+}
+
+.links-redes:hover{
+    color: #505059;
+    text-decoration: underline;
+}
+
+.conteudo-imagem{
+    background-image: url(perfil-daniel.jpg);
+    background-size: cover;
+    width: 366px;
+    height: 366px;
+    border-radius: 200px;
+    border: 1px solid #8257E5;
+}

@@ -1,0 +1,53 @@
+#aba-skills{
+    width: auto;
+    height: auto;
+    padding: 5% 5%;
+}
+
+.caixa-skills-hobbies{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+}
+
+.titulo-skills-hobbies{
+    font-family: 'Raleway';
+    font-size: 32px;
+    font-weight: bolder;
+    color: #fff;
+}
+
+.caixinhas{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.caixinhas-conteudo{
+    width: 100px;
+    height: 100px;
+    padding: 16px;
+    border: 3px solid #121214;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    background: linear-gradient(to left, rgb(45, 38, 74), rgb(32, 32, 36));
+    transition: box-shadow 0.1s ease-out 0s;
+}
+
+/*#html-imagem{background-image: url(img/html.png);background-size: contain;}
+#css-imagem{background-image: url(img/css.png);background-size: contain;}
+#javascript-imagem{background-image: url(img/javascript.png);background-size: contain;}
+#java-imagem{background-image: url(img/java-logo.png);background-size: contain;}
+#internet-imagem{background-image: url(img/html.png);background-size: contain;}*/
+
+.texto-caixinhas{
+    font-family: 'Raleway';
+    font-size: 16px;
+    margin: 0%;
+    color: #fff;
+}
